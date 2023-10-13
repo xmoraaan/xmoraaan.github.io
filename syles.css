@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Dela+Gothic+One&family=Gabarito&family=PT+Sans&family=Pacifico&family=Playfair+Display:ital@1&family=Roboto+Slab:wght@200&family=Young+Serif&display=swap');
+
+
+html {
+    background-image: url(gatosiames.png);
+}
+nav a{
+background-color: rgb(85, 221, 252);
+background-image: -webkit-linear-gradient (rgb(255, 255, 255), rgb(212, 175, 55));
+background-image: -moz-linear-gradient(rgb(255, 255, 255),  rgb(212, 175, 55));
+background-image: -o-linear-gradient(rgb(255, 255, 255),  rgb(212, 175, 55));
+background-image: linear-gradient(rgb(255, 255, 255),  rgb(212, 175, 55));
+color:rgb(0, 0, 0);
+display: inline;
+font-size: 15px;
+margin: 2px auto;
+padding: 2px;
+text-decoration: none;
+width:10px;
+}
+
+header{
+    background: linear-gradient(rgb(238, 228, 203), rgb(255, 255, 255), rgb(238, 228, 203));
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    text-align: center;
+    height: 110px;
+}
+
+section {
+    padding: 5px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background: linear-gradient(rgb(238, 228, 203), rgb(255, 255, 255), rgb(238, 228, 203));
+    text-align: justify;
+  }
+  
+h1{
+    font-family: 'Playfair Display', serif;
+  font-size: 30px;
+}
+h2{
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    font-family: 'Gabarito', sans-serif;
+    font-size: 35px;
+}
+h3 {
+    color: rgb(195, 156, 85);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 35px;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(255, 0, 255);
+    text-decoration: underline;
+}
+
+
+table{
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid rgb(43, 71, 75);
+    padding: 3px;
+  }
+  strong{
+    font-size: 25px;
+  }
+
+hr{
+    background-color:rgb(21, 47, 142)
+}
+footer{
+    background: linear-gradient(rgb(238, 228, 203), rgb(255, 255, 255), rgb(238, 228, 203));
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    text-align: center;
+    height: 45px;
+}
+.column {
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+  }
+  
+@media (min-width: 600px) {
+    .column {
+      width: 50%;
+    }
+}
+
+  p{
+    font-family: 'Gabarito', sans-serif;
+  }
+  .verde{
+    width: 45%;
+}
+.precio{
+    width: 17%;
+}
+
+article,
+aside {
+  padding: 3%;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+  width: 50%;
+}
+
+article{
+    width: 50%;
+}
+.nombre{
+    width: 40%;
+}
+
+.precio{
+    width: 20%;
+    text-align: ;
+}
+
+.verde{
+    width: 30%;
+    border: 10px solid  rgb(195, 156, 85);
+    margin: 10px 6px;
+    background-color: white;
+
+}
+h4 {
+    color: rgb(195, 156, 85);
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+}
+
+.nombree{
+    width: 40%;
+    
+}
+
+.precioo{
+    width: 20%;
+    text-align: ;
+}
+
+.rojo{
+    width: 30%;
+    border: 10px solid  rgb(195, 156, 85);
+    margin: 10px 6px;
+    background-color: white;
+}
+.nombreee{
+    width: 40%;
+}
+
+.preciooo{
+    width: 20%;
+    text-align: ;
+}
+
+.Blanco{
+    width: 30%;
+    border: 10px solid  rgb(195, 156, 85);
+    margin: 10px 6px;
+    background-color: white;
+
+}
+h5 {
+    color: rgb(0, 0, 0);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+}
+.titulo{
+    width: 40%;
+}
+
+.valor{
+    width: 20%;
+    text-align: ;
+}
+
+.rosa{ 
+    width: 30%;
+    border: 10px solid  rgb(195, 156, 85);
+    margin: 10px 6px;
+    background-color: white;
+
+}
+.tituloo{
+    width: 40%;
+}
+
+.valorr{
+    width: 20%;
+    text-align: ;
+}
+
+.gala{
+    width: 30%;
+    border: 10px solid  rgb(195, 156, 85);
+    margin: 10px 6px;
+    background-color: white;
+}
+.titulooo{
+    width: 40%;
+}
+
+.valorrr{
+    width: 20%;
+    text-align: ;
+}
+
+.turquesa{
+    width: 30%;
+    border: 10px solid  rgb(195, 156, 85);
+    margin: 10px 6px;
+    background-color: white;
+}
+
+h6 {
+color: rgb(212, 175, 55);
+font-family: 'Playfair Display', serif;
+font-size: 30px;
+}
+
+.mision{
+    width: 50%;
+}
+.des{
+    width: 40%;
+}
+.vision{
+    width: 50%;
+}
+.dess{
+    width: 40%;
+}
+.uno{
+    width: 40%;
+}
+
+.monto{
+    width: 20%;
+    text-align: ;
+}
+
+.gorro1{
+    width: 30%;border: 10px solid  rgb(195, 156, 85);
+    margin: 10px 6px;
+    background-color: white;
+
+}
+.unoo{
+    width: 40%;
+}
+
+.montoo{
+    width: 20%;
+    text-align: ;
+}
+
+.gorro2{
+    width: 30%;
+    border: 10px solid  rgb(195, 156, 85);
+    margin: 10px 6px;
+    background-color: white;
+}
+.unooo{
+    width: 40%;
+}
+
+.montooo{
+    width: 20%;
+    text-align: ;
+}
+
+.gorro3{
+    width: 30%;
+    border: 10px solid  rgb(195, 156, 85);
+    margin: 10px 6px;
+    background-color: white;
+}
+.ubi{
+    width: 55%;
+}
+
+.hora{
+    width: 40%;
+    text-align: left;
+}
+.tel{
+    width: 55%;
+}
+
+.gmail {
+    width: 40%;
+    text-align: left;
+}
+
+.menu{
+  width: 30%;  
+}
+.lista{
+    width: 50%;
+    te
+}
